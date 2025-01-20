@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://doqujnqcpvjhr"]
+
+[ext_resource type="Texture2D" uid="uid://cite2v52a5btl" path="res://170px-Skeletron.png" id="1_5ef5q"]
+[ext_resource type="Script" path="res://player.gd" id="2_yn5wa"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(559, 314)
+scale = Vector2(1.57647, 1.57647)
+texture = ExtResource("1_5ef5q")
+script = ExtResource("2_yn5wa")
