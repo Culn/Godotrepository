@@ -1,10 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://csu618wugj55u"]
+[gd_scene load_steps=9 format=3 uid="uid://csu618wugj55u"]
 
 [ext_resource type="Script" path="res://mob.gd" id="1_58mua"]
 [ext_resource type="Texture2D" uid="uid://bk67pfrnefp0r" path="res://art/enemyFlyingAlt_1.png" id="1_vpawu"]
 [ext_resource type="Texture2D" uid="uid://d7ts200ffqlc" path="res://art/enemyFlyingAlt_2.png" id="2_nulon"]
-[ext_resource type="Texture2D" uid="uid://c5vt7dj6l3fqp" path="res://art/enemySwimming_1.png" id="3_uuum5"]
-[ext_resource type="Texture2D" uid="uid://dl80rh8abo1v8" path="res://art/enemySwimming_2.png" id="4_nguyj"]
+[ext_resource type="Texture2D" uid="uid://cx36uv5k4tclw" path="res://fonts/download (1).png" id="4_r0q7b"]
 [ext_resource type="Texture2D" uid="uid://180lnipgrohg" path="res://art/enemyWalking_1.png" id="5_abcju"]
 [ext_resource type="Texture2D" uid="uid://bt2t4lrhv0ge4" path="res://art/enemyWalking_2.png" id="6_u3wgd"]
 
@@ -23,10 +22,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_uuum5")
-}, {
-"duration": 1.0,
-"texture": ExtResource("4_nguyj")
+"texture": ExtResource("4_r0q7b")
 }],
 "loop": true,
 "name": &"Swim",
@@ -54,6 +50,8 @@ gravity_scale = 0.0
 script = ExtResource("1_58mua")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(19, -5.96046e-08)
+scale = Vector2(0.41472, 0.21167)
 sprite_frames = SubResource("SpriteFrames_87dn5")
 animation = &"Swim"
 
