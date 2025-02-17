@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bqxmsbfed5hho"
+path="res://.godot/imported/Undertale OST： 072 - Song That Might Play When You Fight Sans.mp3-ba7a9798cb7af2fdef899cacfb876730.mp3str"
+
+[deps]
+
+source_file="res://fonts/Undertale OST： 072 - Song That Might Play When You Fight Sans.mp3"
+dest_files=["res://.godot/imported/Undertale OST： 072 - Song That Might Play When You Fight Sans.mp3-ba7a9798cb7af2fdef899cacfb876730.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
